@@ -1,29 +1,44 @@
-TCP Port Scanner CLI
+# TCP Port Scanner (Node.js)
 
-Outil CLI Node.js pour détecter les ports TCP ouverts sur un hôte,avec gestion asynchrone, scan parallèle et timeout configurable. pour détecter les ports TCP ouverts sur un hôte,avec gestion asynchrone, scan parallèle et timeout configurable.
+Ce projet est un **scanner de ports TCP** écrit en JavaScript (Node.js). Il permet de vérifier quels ports sont ouverts sur une machine cible.
 
-git clone https://github.com/Vincent-P-essy/tcp-port-scanner-cli.git
-cd tcp-port-scanner-cli
-npm install
-npm link
+## 🔧 Fonctionnalités
 
-Usage
+- Scan d'une plage de ports sur une adresse IP ou un nom de domaine.
+- Timeout personnalisable pour chaque port.
+- Export JSON (optionnel).
 
-port-scanner <host> <start-end> [timeout_ms]
-# Exemple:
-port-scanner example.com 1-1000 300
+## 🖥️ Utilisation
 
-Fonctionnalités
+### Prérequis
 
--Scan parallèle configurable
+- Node.js installé
 
--Timeout paramétrable
+### Commande
 
--Affichage en temps réel des ports ouverts
+```bash
+node scanner.js <hôte> <début-fin> [timeout_ms]
+```
 
--Export JSON possible (en décommentant la partie correspondante)
+### Exemple
 
-Auteur
+```bash
+node scanner.js example.com 1-1000 300
+```
 
-Vincent Plessyhttps://github.com/Vincent-P-essy
+Cela scannera les ports de 1 à 1000 avec un délai de 300 ms par port.
 
+## 📁 Fichiers
+
+- `scanner.js` : script principal
+- `package.json` : métadonnées du projet
+
+## 📦 Installation
+
+```bash
+npm init -y
+```
+
+## 💡 Auteur
+
+Vincent Plessy — Étudiant en L3 Informatique à l'Université Gustave Eiffel, passionné par le DevOps, la cybersécurité et les systèmes.
