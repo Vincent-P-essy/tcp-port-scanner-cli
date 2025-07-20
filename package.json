@@ -1,0 +1,15 @@
+{
+  "name": "tcp-port-scanner",
+  "version": "1.0.0",
+  "description": "CLI Node.js pour scanner les ports TCP d'un hôte",
+  "main": "scanner.js",
+  "bin": {
+    "port-scanner": "scanner.js"
+  },
+  "scripts": {
+    "start": "node scanner.js"
+  },
+  "keywords": ["tcp", "port", "scanner", "network", "cli"],
+  "author": "Vincent Plessy",
+  "license": "MIT"
+}
