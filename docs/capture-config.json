@@ -1,0 +1,16 @@
+{
+  "jobs": [
+    {
+      "root": ".",
+      "label": "tcp-port-scanner-cli",
+      "caption": "A real scan of three loopback ports around a temporary local server. No external host is scanned.",
+      "setup": [],
+      "commands": [
+        [
+          "node",
+          "docs/examples/local-scan.cjs"
+        ]
+      ]
+    }
+  ]
+}
