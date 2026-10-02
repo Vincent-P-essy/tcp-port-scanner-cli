@@ -1,0 +1,8 @@
+[
+  {
+    "command": "node docs/examples/local-scan.cjs",
+    "exit": 0,
+    "expected_exit": 0,
+    "output": "Scanning 127.0.0.1 ports 18650\u219218652 (timeout 250ms)...\n\nPorts ouverts : 18651\n"
+  }
+]

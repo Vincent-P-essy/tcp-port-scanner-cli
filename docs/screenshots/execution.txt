@@ -1,0 +1,6 @@
+$ node docs/examples/local-scan.cjs
+Scanning 127.0.0.1 ports 18650→18652 (timeout 250ms)...
+
+Ports ouverts : 18651
+
+Exit: 0
