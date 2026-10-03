@@ -3,13 +3,6 @@
 Ce projet est un **scanner de ports TCP** écrit en JavaScript (Node.js). Il permet de vérifier quels ports sont ouverts sur une machine cible.
 
 <!-- execution-capture -->
-## Execution preview
-
-![tcp-port-scanner-cli](docs/screenshots/execution.png)
-
-A real scan of three loopback ports around a temporary local server. No external host is scanned. [Verification](docs/verification.md).
-<!-- /execution-capture -->
-
 ##  Fonctionnalités
 
 - Scan d'une plage de ports sur une adresse IP ou un nom de domaine.
